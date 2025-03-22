@@ -15,14 +15,14 @@ name                     : &name "Zhaolong Shen"
 description              : &description "Graduate Student"
 url                      : https://shenzhaolong1330.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Shenzhaolong1330/Shenzhaolong1330.github.io"
+repository               : "Shenzhaolong1330.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/avatar.png"
+  avatar           : "avatar.png"
   name             : "Zhaolong Shen"
   pronouns         : "he/his"  
   bio              : #"Short biography for the left-hand sidebar"
