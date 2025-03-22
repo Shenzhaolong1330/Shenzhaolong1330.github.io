@@ -24,11 +24,11 @@ author:
   # Biographic information
   avatar           : "images/avatar.png"
   name             : "Zhaolong Shen"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/his"  
   bio              : #"Short biography for the left-hand sidebar"
   location         : "Beijing, China"
   employer         : "Beihang University"
-  uri              : # URL
+  uri              : Shenzhaolong1330.github.io
   email            : "shenzhaolong1330@gmail.com" 
 
   # Academic websites
