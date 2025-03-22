@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year master's student in the [School of Automation Science and Electrical Engineering](http://dept3.buaa.edu.cn/index.htm) at [Beihang University](http://www.buaa.edu.cn/) (BUAA). My research interests are in the areas of Control Theory, Machine Learning, Reinforcement Learning, and Learning-based Control. I am very fortunate to join the [Reliable Flight Control Group](https://rfly.buaa.edu.cn/index.html#/home) and to be supervised by [Prof. Quan Quan](https://shi.buaa.edu.cn/quanquan/zh_CN/index.htm).
+I am a second-year master's student in the [School of Automation Science and Electrical Engineering](http://dept3.buaa.edu.cn/index.htm) at [Beihang University](http://www.buaa.edu.cn/) (BUAA), Beijing, China. 
+
+My research interests are in the areas of Control Theory, Machine Learning, Reinforcement Learning, and Learning-based Control. 
+
+I am very fortunate to join the [Reliable Flight Control Group](https://rfly.buaa.edu.cn/index.html#/home) in 2024 and to be supervised by [Prof. Quan Quan](https://shi.buaa.edu.cn/quanquan/zh_CN/index.htm).
 
 [Email](mailto:shenzhaolong1330@buaa.edu.cn) / [Github](https://github.com/Shenzhaolong1330) / [Wechat](../images/wechat.jpg)
 
