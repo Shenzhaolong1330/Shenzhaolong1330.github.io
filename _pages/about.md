@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year master's student in the [School of Automation Science and Electrical Engineering](http://dept3.buaa.edu.cn/index.htm) at [Beihang University](http://www.buaa.edu.cn/) (BUAA), Beijing, China. In 2024, I had the privilege of joining the [Reliable Flight Control Group](https://rfly.buaa.edu.cn/index.html#/home), where I am currently supervised by [Prof. Quan Quan](https://shi.buaa.edu.cn/quanquan/zh_CN/index.htm). Prior to this, I received my ​Bachelor of Engineering degree in Automation from [Northeastern University](https://www.neu.edu.cn/), Shenyang, China, in 2023.
+I am a second-year master's student in the [School of Automation Science and Electrical Engineering](http://dept3.buaa.edu.cn/index.htm) at [Beihang University](http://www.buaa.edu.cn/) (BUAA), Beijing, China. In 2024, I had the privilege of joining the [Reliable Flight Control Group](https://rfly.buaa.edu.cn/index.html#/home) (Rfly), where I'm supervised by [Prof. Quan Quan](https://shi.buaa.edu.cn/quanquan/zh_CN/index.htm). Prior to this, I received my ​Bachelor of Engineering degree in Automation from [Northeastern University](https://www.neu.edu.cn/), Shenyang, China, in 2023.
 
-My research interests lie at the areas of Control Theory, Machine Learning, Reinforcement Learning, and Learning-based Control. Beyond theoretical exploration, I am passionate about applying these algorithms to real-world robotics and autonomous systems. I'm willing to share about my previous research and projects, and I'm always open to discussions or collaborations on projects related to these fields.
+My research interests lie at the areas of Control Theory, Machine Learning, Reinforcement Learning, and Learning-based Control. Beyond theoretical exploration, I'm passionate about applying these algorithms to real-world robotics and autonomous systems. I'm willing to share about my previous research and projects, and I'm always open to discussions or collaborations on projects related to these fields.
 
 [Email](mailto:shenzhaolong1330@buaa.edu.cn) / [Github](https://github.com/Shenzhaolong1330) / [Wechat](../images/wechat.jpg)
 
