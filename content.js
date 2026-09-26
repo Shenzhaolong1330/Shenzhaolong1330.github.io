@@ -154,7 +154,12 @@ window.homepage = {
       "description": "A dexterous manipulation platform combining depth and tactile perception with human demonstrations to support research on fine-grained interaction.",
       // "image": "assets/platforms/dexterous.png",
       "video": "assets/platforms/dex.mp4",
-      "links": []
+      "links": [
+        {
+          "label": "code",
+          "url": "https://github.com/Shenzhaolong1330/isaac_teleop_flexiv_inspire"
+        }
+      ]
     }
   ],
 
