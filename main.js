@@ -92,7 +92,7 @@
     body.append(rich('p', item.description, 'description'));
     article.append(body); return article;
   }
-  document.title = `${data.name} | Academic Homepage`;
+  document.title = data.name;
   document.querySelector('meta[name="description"]').content = `${data.name} — ${data.bio.join(' ').replace(inlinePattern, '$1')}`;
   $('name').textContent = data.name; $('native-name').textContent = data.nativeName;
   $('email').textContent = data.email;
