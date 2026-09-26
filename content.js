@@ -44,7 +44,7 @@ window.homepage = {
   "news": [
     {
       "date": "Jun. 2026",
-      "text": "I led Team DeepCyboZGCA in the ICRA 2026 What Bimanuals Can Do ([WBCD](https://wbcdcompetition.github.io/)) Competition. Our team placed 2nd nationally and 3rd globally in the XtalPi Lab Experiments track.",
+      "text": "I led Team DeepCyboZGCA in the ([ICRA 2026 What Bimanuals Can Do (WBCD)](https://wbcdcompetition.github.io/)) Competition. Our team placed 2nd nationally and 3rd globally in the XtalPi Lab Experiments track.",
       "image": "assets/news/WBCD.jpg",
       "imageAlt": "WBCD 2026 competition award photograph"
     },
@@ -764,7 +764,7 @@ window.homepage = {
   "talks": [
     {
       "title": "WBCD 2026 Technical Talk",
-      "description": "I was invited to give a technical talk sharing our experience in the [WBCD](https://wbcdcompetition.github.io/) 2026 competition.",
+      "description": "I was invited to give a technical talk sharing our solutions in the [WBCD](https://wbcdcompetition.github.io/) 2026 competition.",
       "image": "assets/talks/Talks.jpg",
     }
   ],
