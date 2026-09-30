@@ -47,7 +47,7 @@
     if (safeURL(item.video)) {
       box.classList.add('video-visual');
       const video = make('video');
-      video.src = item.video; video.controls = true; video.muted = true; video.playsInline = true; video.preload = 'metadata';
+      video.src = item.video; video.controls = true; video.muted = true; video.loop = true; video.playsInline = true; video.preload = 'metadata';
       video.setAttribute('aria-label', item.imageAlt || item.title);
       video.append(document.createTextNode('Your browser does not support embedded video.'));
       const fallback = make('a', 'Open video', 'video-fallback'); fallback.href = item.video;
@@ -137,5 +137,15 @@
   });
   (data.talks || []).forEach(item => $('talks').append(entry(item, false)));
   $('talks-empty').hidden = Boolean(data.talks?.length);
+  const videos = document.querySelectorAll('video');
+  if ('IntersectionObserver' in window) {
+    const videoObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.play().catch(() => {});
+      else entry.target.pause();
+    }), { threshold: 0.25 });
+    videos.forEach(video => videoObserver.observe(video));
+  } else {
+    videos.forEach(video => { video.autoplay = true; video.play().catch(() => {}); });
+  }
   $('footer-name').textContent = data.name; $('updated').textContent = data.updated;
 })();
