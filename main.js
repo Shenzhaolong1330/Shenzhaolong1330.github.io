@@ -98,6 +98,26 @@
   $('email').textContent = data.email;
   data.bio.forEach(paragraph => $('bio').append(rich('p', paragraph)));
   links(data.socials, $('socials'));
+  /* Blog temporarily disabled. Restore this block and the section in index.html to enable it.
+  const localPreview = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname) || location.protocol === 'file:';
+  const blogPosts = (data.blog || []).filter(post => !post.draft || localPreview);
+  if (blogPosts.length) {
+    links([{ label: 'Blog', url: '#blog-section' }], $('socials'));
+    $('blog-section').hidden = false;
+    blogPosts.slice(0, 3).forEach(post => {
+      const article = make('article', '', 'blog-row');
+      const meta = make('div', '', 'blog-meta');
+      if (post.date) { const time = make('time', post.date); time.dateTime = post.date; meta.append(time); }
+      if (post.draft) meta.append(make('span', 'Draft', 'blog-preview'));
+      const body = make('div');
+      const heading = make('h3');
+      const link = make('a', post.title); link.href = 'blog/post.html?post=' + encodeURIComponent(post.slug);
+      heading.append(link); body.append(heading, make('p', post.summary));
+      article.append(meta, body); $('blog-posts').append(article);
+    });
+  }
+  */
+
   if (safeURL(data.photo)) {
     const img = make('img'); img.src = data.photo; img.alt = `Portrait of ${data.name}`;
     $('portrait').replaceChildren(img);

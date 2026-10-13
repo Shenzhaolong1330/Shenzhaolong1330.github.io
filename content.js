@@ -15,8 +15,8 @@ window.homepage = {
   "photo": "https://avatars.githubusercontent.com/u/129477019?v=4",
 
   "bio": [
-    "I'm a robotics research intern at [DeepCybo](https://deepcybo.site/), working on robotic agents and policy post-training for real-world robotic deployment.",
-    "I'm also a second-year Ph.D. student in [Rfly Lab](https://rfly.buaa.edu.cn/) at [Beihang University (BUAA)](https://www.buaa.edu.cn/), jointly training at [Zhongguancun Academy (ZGCA)](https://www.bza.edu.cn/). I am supervised by Prof. [Quan Quan](https://shi.buaa.edu.cn/quanquan/zh_CN/index.htm) and Prof. [Kai Chen](https://www.bza.edu.cn/teacher/64014f93a18f41bc88551bf9f248e4cd). Previously, I received my bachelor's degree from [Northeastern University (NEU)](https://www.neu.edu.cn/).",
+    "I'm a second-year Ph.D. student in [Rfly Lab](https://rfly.buaa.edu.cn/) at [Beihang University (BUAA)](https://www.buaa.edu.cn/), jointly training at [Zhongguancun Academy (ZGCA)](https://www.bza.edu.cn/). I am supervised by Prof. [Quan Quan](https://shi.buaa.edu.cn/quanquan/zh_CN/index.htm) and Prof. [Kai Chen](https://www.bza.edu.cn/teacher/64014f93a18f41bc88551bf9f248e4cd). Previously, I received my bachelor's degree from [Northeastern University (NEU)](https://www.neu.edu.cn/).",
+    "I'm also a robotics research intern at [DeepCybo](https://deepcybo.site/), working on robotic agents and policy post-training for real-world robotic deployment.",
     "My earlier research focused on learning-based control. Since starting my Ph.D. in 2025, my research has focused on advanced robot learning at ZGCA.",
     "My goal is to develop robot policies that generalize across tasks and environments while remaining reliable in the physical world."
   ],
@@ -757,6 +757,19 @@ window.homepage = {
       "date": "2025-05-02",
       "imageAlt": "An Efficient Real-Time Planning Method for Swarm Robotics Based on an Optimal Virtual Tube - overview",
       "imageSource": "https://arxiv.org/html/2505.01380v2/top_figure.png"
+    }
+  ],
+
+  // Blog: newest first. Write articles in blog/posts/*.md.
+  // draft: true shows an article only in local previews; set false to publish.
+  "blog": [
+    {
+      "slug": "umi-data-vs-teleoperation-data",
+      "title": "What Gap Remains between UMI Data and Teleoperation Data",
+      "date": "",
+      "summary": "",
+      "file": "posts/umi-data-vs-teleoperation-data.md",
+      "draft": true
     }
   ],
 

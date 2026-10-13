@@ -91,3 +91,15 @@ footer{border-top:1px solid var(--line);display:flex;justify-content:space-betwe
 @media(max-width:680px){:root{--media-width:180px}.intro{grid-template-columns:1fr}}
 @media(max-width:480px){:root{--media-width:236px}.entry{grid-template-columns:minmax(0,1fr)}}
 
+
+/* Blog keeps the homepage's compact typography and quiet text rows. */
+.blog-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.blog-all{font-size:12px;white-space:nowrap}
+.blog-list{border-top:1px solid var(--line)}
+.blog-row{display:grid;grid-template-columns:86px minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px solid var(--line)}
+.blog-row h3{font-size:14px;line-height:1.4;margin:0 0 5px;font-weight:700}
+.blog-row p{margin:0;font-size:13px;line-height:1.45;color:var(--muted)}
+.blog-meta{font-size:11px;color:var(--muted);line-height:1.7;padding-top:2px}
+.blog-meta time{display:block;font-variant-numeric:tabular-nums}
+.blog-preview{font-size:10px;letter-spacing:.3px}
+@media(max-width:480px){.blog-row{grid-template-columns:minmax(0,1fr);gap:4px}.blog-meta{display:flex;gap:8px;padding:0}}
