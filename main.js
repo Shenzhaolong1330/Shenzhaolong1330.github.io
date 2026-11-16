@@ -89,8 +89,35 @@
     if (item.isNew) venue.append(make('span', 'New', 'badge'));
     if (venue.textContent) body.append(venue);
     const linkRow = make('div', '', 'entry-links'); links(item.links, linkRow); body.append(linkRow);
-    body.append(rich('p', item.description, 'description'));
-    article.append(body); return article;
+    if (item.description) body.append(rich('p', item.description, 'description'));
+    article.append(body);
+    return article;
+  }
+  function demoEntry(item) {
+    const clips = item.videos?.length ? item.videos : [{ ...item, caption: item.description }];
+    const article = make('article', '', 'entry demo-entry');
+    const heading = make('h3');
+    const target = (item.links || []).find(link => safeURL(link.url));
+    if (target) {
+      const link = make('a', item.title);
+      link.href = target.url;
+      heading.append(link);
+    } else heading.textContent = item.title;
+    article.append(heading);
+    const frames = make('div', '', 'demo-frames');
+    clips.forEach(clip => {
+      const figure = make('figure');
+      figure.append(media({ ...clip, imageAlt: clip.imageAlt || clip.caption || item.title }));
+      if (clip.caption) figure.append(rich('figcaption', clip.caption));
+      frames.append(figure);
+    });
+    article.append(frames);
+    if (item.links?.length) {
+      const linkRow = make('div', '', 'entry-links');
+      links(item.links, linkRow);
+      article.append(linkRow);
+    }
+    return article;
   }
   document.title = data.name;
   document.querySelector('meta[name="description"]').content = `${data.name} — ${data.bio.join(' ').replace(inlinePattern, '$1')}`;
@@ -141,7 +168,7 @@
     }
     if (item.isNew) li.append(make('span', 'New', 'badge')); $('news').append(li);
   });
-  (data.demos || []).forEach(item => $('demos').append(entry(item, false)));
+  (data.demos || []).forEach(item => $('demos').append(demoEntry(item)));
   (data.platforms || []).forEach(item => $('platforms').append(entry(item, false, { plainTitle: true })));
   function publications(filter) {
     const items = data.publications.filter(item => filter === 'all' || item.selected);

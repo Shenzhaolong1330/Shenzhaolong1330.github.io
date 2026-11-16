@@ -58,8 +58,16 @@ footer{border-top:1px solid var(--line);display:flex;justify-content:space-betwe
 
 /* Media entries: preserve complete video frames and talk photographs. */
 
-#demos .visual{background:#161816;position:relative}
-#demos video{object-fit:contain}
+#demos{display:grid;grid-template-columns:minmax(0,1fr);gap:26px}
+#demos .demo-entry{display:block;margin:0;min-width:0}
+.demo-entry h3{margin-bottom:10px}
+.demo-entry .visual{width:100%;background:#161816;position:relative}
+.demo-frames{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.demo-frames figure{margin:0;min-width:0}
+.demo-frames figcaption{margin-top:7px;color:var(--muted);font-size:13px;line-height:1.4}
+.demo-entry .entry-links{margin-top:6px}
+@media(max-width:480px){.demo-frames{grid-template-columns:minmax(0,1fr)}}
+
 .video-fallback{position:absolute;z-index:1;bottom:8px;left:8px;background:var(--bg);padding:4px 8px;border-radius:4px}
 #talks .visual{aspect-ratio:auto;background:transparent}
 #talks .visual img{height:auto;object-fit:contain}

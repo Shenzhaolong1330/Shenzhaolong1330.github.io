@@ -88,6 +88,19 @@ window.homepage = {
       "links": []
     },
     {
+      "title": "Robotic Agents RSI",
+      "videos": [
+        {
+          "video": "assets/demos/during-rsi-web.mp4",
+          "caption": "During RSI: 10+ hours of autonomous exploration"
+        },
+        {
+          "video": "assets/demos/after-rsi-web.mp4",
+          "caption": "After stabilization: 24+ hours of stable operation without intervention"
+        }
+      ]
+    },
+    {
       "title": "Bimanual Imitation Learning",
       "organization": "",
       "description": "Coordinated dual-arm manipulation using policies learned from demonstrations.",
