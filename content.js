@@ -180,9 +180,32 @@ window.homepage = {
   // Under-review work is listed first, followed by publications in date order.
   "publications": [
     {
+      "title": "Identifying Embodiment Gaps as Context for Cross-Embodiment Robotic Policy Learning",
+      "image": "assets/researchs/inside-overview.webp",
+      "imageAlt": "INSIDE overview: observation and dynamics gaps between robot embodiments",
+      "description": "Inspired by system identification, INSIDE uses measured motion as a common reference to infer how different robots respond to commands and how their sensors observe that motion. These dynamics and observation cues help a shared manipulation policy adapt across robot embodiments.",
+      "links": [],
+      "authors": [
+        "Zhaolong Shen",
+        "Chenyu Su",
+        "Xiaopeng Lin",
+        "Shijie Lian",
+        "Bin Yu",
+        "Haipeng Cao",
+        "Zishen Zhuang",
+        "Cong Huang",
+        "Kai Hu",
+        "Zhirui Zhang",
+        "Kai Chen",
+        "Quan Quan"
+      ],
+      "venue": "Under review",
+      "selected": true
+    },
+    {
       "title": "Under Pressure: Characterizing the Reliability of Learned Rewards in Real-World Robot Reinforcement Learning",
       "image": "assets/researchs/underpressure.png",
-      "description": "I study how reward pressure and task structure affect learned reward reliability in real-world reinforcement learning, and investigate static and offline-RL screening to select reward configurations.",
+      "description": "Under Pressure examines how reward pressure and task structure affect the reliability of learned rewards in real-world reinforcement learning. It also explores static screening and offline RL as ways to select reward configurations.",
       "links": [],
       "authors": [
         "Zhaolong Shen",
@@ -203,7 +226,7 @@ window.homepage = {
     {
       "title": "Beyond Local Success: Harnessing Robotic Agents for Consequence-Aware Skill Execution via Failure Backtracing",
       "image": "assets/researchs/beyondlocalsuccess.png",
-      "description": "I investigate failure backtracing for robotic agents: reviewing execution history, attributing failures, and adjusting subsequent skills to account for their consequences.",
+      "description": "Beyond Local Success studies how robotic agents can trace failures to earlier actions in their execution history and adjust subsequent skills to account for the consequences.",
       "links": [],
       "authors": [
         "Zhaolong Shen",
