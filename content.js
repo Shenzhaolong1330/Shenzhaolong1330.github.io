@@ -184,7 +184,12 @@ window.homepage = {
       "image": "assets/researchs/inside-overview.webp",
       "imageAlt": "INSIDE overview: observation and dynamics gaps between robot embodiments",
       "description": "Inspired by system identification, INSIDE uses measured motion as a common reference to infer how different robots respond to commands and how their sensors observe that motion. These dynamics and observation cues help a shared manipulation policy adapt across robot embodiments.",
-      "links": [],
+      "links": [
+        {
+          "label": "video",
+          "url": "assets/videos/INSIDE.mp4"
+        }
+      ],
       "authors": [
         "Zhaolong Shen",
         "Chenyu Su",
@@ -227,7 +232,12 @@ window.homepage = {
       "title": "Beyond Local Success: Harnessing Robotic Agents for Consequence-Aware Skill Execution via Failure Backtracing",
       "image": "assets/researchs/beyondlocalsuccess.png",
       "description": "Beyond Local Success studies how robotic agents can trace failures to earlier actions in their execution history and adjust subsequent skills to account for the consequences.",
-      "links": [],
+      "links": [
+        {
+          "label": "video",
+          "url": "assets/videos/B-CARE.mp4"
+        }
+      ],
       "authors": [
         "Zhaolong Shen",
         "Haipeng Cao",
